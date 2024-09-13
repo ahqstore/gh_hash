@@ -1,6 +1,6 @@
 {
   "name": "@ahqstore/gh_hash",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Generate AHQ Store Hash",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

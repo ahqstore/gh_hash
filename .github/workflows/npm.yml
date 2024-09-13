@@ -18,7 +18,10 @@ jobs:
           registry-url: https://registry.npmjs.org
 
       - name: Install pnpm
-        run: npm i -g pnpm
+        run: |
+          npm i -g pnpm
+          pnpm install
+        working-directory: js
 
       - name: Publish
         run: pnpm build-prod
