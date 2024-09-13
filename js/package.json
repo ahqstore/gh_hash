@@ -1,6 +1,6 @@
 {
   "name": "@ahqstore/gh_hash",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Generate AHQ Store Hash",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/ahqstore/gh_hash/issues"
   },
-  "homepage": "https://github.com/ahqstore/gh_hash#readme"
+  "homepage": "https://github.com/ahqstore/gh_hash#readme",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=18"
+  }
 }
