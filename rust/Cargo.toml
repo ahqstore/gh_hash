@@ -1,6 +1,6 @@
 [package]
 name = "ahqstore_gh_hash"
-version = "1.0.2"
+version = "1.1.0"
 edition = "2021"
 license = "MIT"
 authors = ["AHQ Store"]
@@ -10,4 +10,4 @@ repository = "https://github.com/ahqstore/gh_hash"
 rust-version = "1.70"
 
 [dependencies]
-sha256 = "1.5.0"
+sha256 = "1"
