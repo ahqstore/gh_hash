@@ -22,5 +22,6 @@ jobs:
 
       - name: Publish
         run: pnpm build-prod
+        working-directory: js
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
