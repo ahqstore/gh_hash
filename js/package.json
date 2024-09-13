@@ -1,0 +1,35 @@
+{
+  "name": "@ahqstore/gh_hash",
+  "version": "1.0.1",
+  "description": "Generate AHQ Store Hash",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "pnpm build && node .",
+    "build-prod": "tsc && pnpm publish --access public"
+  },
+  "keywords": [
+    "hash",
+    "ahq",
+    "store"
+  ],
+  "author": "AHQ Store",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/sha256": "^0.2.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "sha256": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahqstore/gh_hash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahqstore/gh_hash/issues"
+  },
+  "homepage": "https://github.com/ahqstore/gh_hash#readme"
+}

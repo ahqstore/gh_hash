@@ -1,0 +1,13 @@
+[package]
+name = "ahqstore_gh_hash"
+version = "1.0.1"
+edition = "2021"
+license = "MIT"
+authors = ["AHQ Store"]
+description = "Generate AHQ Store GH Hash"
+readme = "README.md"
+repository = "https://github.com/ahqstore/gh_hash"
+rust-version = "1.70"
+
+[dependencies]
+sha256 = "1.5.0"
